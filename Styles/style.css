@@ -1,9 +1,12 @@
+body{
+  background-color: rgb(245, 245, 245);
+}
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
   }
-  nav{
+  .nav-info{
     width: 1480px;
     display: flex;
     align-items: center;
@@ -73,42 +76,132 @@
 /* main section */
 .main-section{
     gap: 80px;
-    width: 1280px;
-    height: 765px;
+    width: 1480px;
+    height: 690px;
     margin: 80px 160px;
 }
-.title{
-    font-weight: bold;
+.main-title{
+    
+  font-weight: 700;
     font-size: 40px;
-    color: #0E0E0E;
+    color: rgb(14, 14, 14);
 }
 
 .cards{
-    display: flex;
+  gap: 32px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-section p{
-    font-size: 16px;
+  margin-bottom: 24px;  
+  font-size: 16px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.7);
-}
-
-.cards{
-    gap: 32px;
 }
 .cards h3{
     font-size: 20px;
 }
-.cards p{
-    font-size: 16px;
-}
-
 .card-1{
-    width: 410px;
-    height: 325px;
+    display: flex;  
     border-radius: 16px;
     background-color: rgba(84, 144, 245, 0.2);
-    padding: 32px;
+    padding: 32px 32px;
+    justify-content: center;
     align-items: center;
+    width: 410px;
+    height: 325px;
+}
+.card-2{
+  display: flex;    
+  border-radius: 16px;
+    background-color:rgb(198, 228, 214);
+    padding: 32px 32px;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 325px;
 }
 
+.card-3{
+  display: flex;    
+  border-radius: 16px;
+    background-color:rgb(247, 235, 207);
+    padding: 32px 32px;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 325px;
+}
+
+ .cards title{
+  font-size:20px;
+  font-weight: 700px;
+  color: rgba(14, 14, 14, 0.8);
+
+}
+.learn-btn1{
+  padding: 11px 20px 11px 20px;
+  background-color: rgb(84, 144, 245);
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.learn-btn2{
+  padding: 11px 20px 11px 20px;
+  background-color: rgb(9, 161, 92);
+  border: none;
+  border-radius: 8px;
+  color:rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.learn-btn3{
+  padding: 11px 20px 11px 20px;
+  background-color: rgb(255, 194, 57);
+  border: none;
+  border-radius: 8px;
+  color:rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1432px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  margin: -200px 160px 160px;
+  padding: 40px 24px 40px 24px;
+}
+.dr-yunus{
+  background-image: url(../assets/quote-bg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.para-yunus{
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.header-name{
+  font-size: 20px;
+  font-weight: 600px;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.last-para{
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgba(14, 14, 14, 0.6);
+}
